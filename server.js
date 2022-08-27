@@ -9,7 +9,7 @@ app.use(express.static(path.join(__dirname, "public")));
 
 mongoose
   .connect(
-    "mongodb+srv://Tevz:kosarka123@cluster0.zf5cirt.mongodb.net/snapchat-grabber?retryWrites=true&w=majority"
+    "mongodb+srv://Tevz:kosarka123@cluster0.ep3ibvr.mongodb.net/?retryWrites=true&w=majority"
   )
   .then(() => console.log("DB Connection Succesfull"))
   .catch((err) => {
